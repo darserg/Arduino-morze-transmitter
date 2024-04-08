@@ -44,7 +44,7 @@ const char SPACE = ' ';
 
 //Функции-преобразователи
 void abc_to_mrz() {
-  for (auto i : wmrz){
+  for (auto i = str.begin(); i != str.end(); i++){
     switch (*i)
     {
     case DASH:
